@@ -18,3 +18,14 @@ public class Uppgift1 {
         return x;
     }
 }
+
+/*
+* Can use the Math.min() but that method can only take in 2 variable
+*public static int findMinimum(int a, int b, int c){
+*   int min = Math.min(a, b);
+*   min = Math.min(min, c);
+*   return min;
+* }
+* But my solution was right as well
+* A arrays take more time. If there is a small amount of variables then it's faster to just input the variables
+* */

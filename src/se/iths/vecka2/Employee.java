@@ -10,6 +10,8 @@ public class Employee {
     private final LocalDate startDate;
 
     public Employee(String name, double salary, LocalDate startDate) {
+        if (name.isBlank())
+            throw new IllegalArgumentException("Name cannot be blank");
         this.name = name;
         this.salary = salary;
         this.startDate = startDate;

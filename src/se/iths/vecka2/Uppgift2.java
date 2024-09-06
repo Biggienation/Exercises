@@ -22,5 +22,27 @@ public class Uppgift2 {
         return false;
     }
 
-    // im not sure how regex works
+    /* im not sure how regex works
+
+        if (password.length() <10); i++){
+            return false;
+        }
+        int digitCount = 0:
+        for (int i = 0; i < password.length(); i++){
+            char digitChar = password.charAt(i);
+            if (digitChar >= 'a' && digitChar <= 'z'){
+                continue;
+            }
+
+            if (Character.isDigit(digitChar){
+                digitCount++;
+                continue;
+            }
+
+            return false;
+
+
+        }
+            return digitCount >= 2;
+     */
 }

@@ -40,3 +40,25 @@ public class Uppgift3 {
          */
     }
 }
+/* Makes an algorithm that checks tha first to last char, and second to second last.......
+
+public static boolean isPalindrome (String input){
+    input = input.toLowerCase()
+
+    for (int i = 0: i < input.length(); i++){
+        if (input.charAt(i) != input.charAt(input.length() -1 -i){
+            return false;
+        }
+    }
+        return true;
+}
+
+   We don't have to go through the entire string just only half
+   by "input.length/2"
+
+   to make one that takes an integer we just have to covert the integer to a string and then recall the method above
+
+ public static boolean isPalindrome (int input){
+    return isPalindrome(String.valueOf(input));
+ }
+ */

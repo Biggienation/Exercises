@@ -8,3 +8,8 @@ public class Uppgift5 {
         rectangle.setHeight(-1);
     }
 }
+
+/*
+you can make simple class through \
+record red (float width, float height)
+ */
