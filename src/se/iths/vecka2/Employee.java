@@ -3,6 +3,7 @@ package vecka2;
 import java.time.LocalDate;
 import java.time.Period;
 import java.time.format.DateTimeParseException;
+import java.time.temporal.ChronoUnit;
 
 public class Employee {
     private String name;
@@ -55,6 +56,10 @@ public class Employee {
         }
     }
 
+    public int emloymentTimeDays (LocalDate endDate){
+        return (int) startDate.until(endDate, ChronoUnit.DAYS );
 
+    }
 
+// sout should bhe handled in another class like a console class instead of the class that handles the calculations
 }
