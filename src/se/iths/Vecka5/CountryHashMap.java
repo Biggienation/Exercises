@@ -37,6 +37,8 @@ public class CountryHashMap {
             if(!countryCapitalMap.containsKey(country))
                 return "Country Not Found";
             return countryCapitalMap.get(country);
+            //Can also use .getOrDefault(country,"Country Not Found")
+            //return countryCapitalMap.computeIfAbsent(country, k -> "Country Not Found");
         }
     }
 }

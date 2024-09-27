@@ -17,6 +17,7 @@ public class StringToHashset {
         input = input.replace(",","");
         String[] words = input.split(" ");
         return new HashSet<>(List.of(words));
+        // return new Hashset<>(List.of(input.toLowerCase().split("")));
 
     }
 }
