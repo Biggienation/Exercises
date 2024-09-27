@@ -24,6 +24,9 @@ public class ArrayList_Uppgift {
 }
 
 class ArrayList_ {
+    // An  Arrraylist has by deafult 10 list. Before we use add the first time it has 0
+    // A Map has by deafult 16 spaces
+    // An Array has a max length of integer.maxvalue-8
     public ArrayList<Integer> list;
     public ArrayList_() {
         list = new ArrayList<>();
