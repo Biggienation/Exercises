@@ -20,6 +20,8 @@ public class ArrayList_Uppgift {
         System.out.println(list);
 
 
+
+
     }
 }
 
@@ -77,6 +79,12 @@ class ArrayList_ {
 
     public void sortReverse() {
         list.sort(comparator);
+    }
+
+    public static List<String> reverse(List<String> list) {
+        //return list.reversed();
+        //gives a reversed view but doesn't creat a copy of the list in reverse
+        return new ArrayList<>(list.reversed());
     }
 
 }
